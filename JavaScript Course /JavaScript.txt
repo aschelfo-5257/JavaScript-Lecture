@@ -1,7 +1,8 @@
-History:
+### History:
 JavaScript, a scripting language widely used in web development, was created in 1995 by Brendan Eich, then a developer at Netscape Communications Corporation. Initially named "Mocha" and later "LiveScript", it was eventually rebranded as JavaScript to capitalize on the popularity of Java at the time, despite the two languages being fundamentally different. The browser wars, especially the first one between Netscape Navigator and Microsoft's Internet Explorer, significantly shaped the early development and standardization of JavaScript.
 
-Early Dominance: 
+### Early Dominance:
+
 Netscape Navigator was initially dominant, introducing JavaScript to enable dynamic content on websites.
 Microsoft's Entry: Microsoft countered by introducing Internet Explorer (IE) which included its own JavaScript variant called JScript.
 Incompatibility & Frustration: 
@@ -11,7 +12,7 @@ Websites would frequently display "best viewed in Netscape" or "best viewed in I
 Antitrust & Standardization: 
 Microsoft's dominance and the bundling of IE with Windows led to antitrust lawsuits. This rivalry, however, also pushed the need for web standards, resulting in the establishment of ECMAScript (ECMA-262) as the standardized version of JavaScript in 1997.
 
-Key Concepts:
+### Key Concepts:
 
 Syntax Basics: Understanding how to write JavaScript code, including statements, comments, and basic structure.
 Variables and Data Types: Learning how to store and manipulate different types of data (e.g., numbers, strings, booleans, objects, arrays).
@@ -22,7 +23,7 @@ Scope: Understanding where variables and functions are accessible within a progr
 The Document Object Model (DOM): Learning how to interact with HTML and CSS elements in web pages using JavaScript.
 Events: Handling user interactions and other events on web pages.
 
-Prerequisites:
+### Prerequisites:
 
 Basic Computer Literacy:
 Familiarity with using a computer, including file systems, operating systems, and basic software like text editors and web browsers.
@@ -34,9 +35,9 @@ Logical Thinking and Problem-Solving Skills:
 Programming in general, and JavaScript specifically, requires the ability to break down problems into smaller, manageable steps and devise logical solutions.
 Basic Programming Concepts (Optional but Recommended):
 While not strictly required, prior exposure to fundamental programming concepts like variables, data types, operators, conditional statements (if/else), loops (for/while), and functions in any language can make learning JavaScript's syntax and structure easier.
-Text Editor or Code Editor:
-A tool like VS Code, Sublime Text, or Atom for writing and editing JavaScript code.
-Web Browser:
-A modern web browser (e.g., Chrome, Firefox, Edge) with developer tools for testing and debugging JavaScript in a browser environment.
-Node.js (for server-side JavaScript):
-If planning to use JavaScript for server-side development, installing Node.js is necessary.
+
+### Tools Required:
+
+- **Code Editor:** Use a text editor like VS Code, Sublime Text, or Atom.
+- **Web Browser:** A modern browser such as Chrome, Firefox, or Edge with developer tools.
+- **Node.js (for server-side JavaScript):** Install Node.js if you plan to run JavaScript outside the browser.
