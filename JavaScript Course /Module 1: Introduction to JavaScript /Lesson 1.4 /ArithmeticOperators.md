@@ -2,32 +2,32 @@
 
 Arithmetic operators can be utilized to perform data. The fundamental takes numerical operands (literals or variables) and returns a single numerical value. These include the following operators and their corresponding symbols: :telescope:
 
-**Addition (+):**
+#### Addition (+):
 - Adds two numbers together.
 
       console.log(5 + 3); // Output: 8
 
-**Subtraction (-):**
+#### Subtraction (-):
 - Subtracts the second number from the first.
 
       console.log(10 - 4); // Output: 6
 
-**Multiplication (*):**
+#### Multiplication (*):
 - Multiplies two numbers.
 
       console.log(2 * 6); // Output: 12
 
-**Division (/):**
+#### Division (/):
 - Divides the first number by the second.
 
       console.log(15 / 3); // Output: 5
 
-**Remainder (%):**
+#### Remainder (%):
 - Returns the remainder of a division operation.
 
       console.log(10 % 3); // Output: 1 (10 divided by 3 is 3 with a remainder of 1)
 
-**Exponentiation (': ')**
+#### Exponentiation (**):
 - Raises the first number to the power of the second number.
 
       console.log(2 ** 3); // Output: 8 (2 * 2 * 2)
