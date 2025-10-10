@@ -1,4 +1,4 @@
-# Lesson 1.2 - Comments
+# Session 1.2 - Comments
 
 Comments are lines of code that the JavaScript engine intentionally ignores during execution. Code can quickly become difficult to understand when revisiting it later, so comments help us and others make sense of it.
 
