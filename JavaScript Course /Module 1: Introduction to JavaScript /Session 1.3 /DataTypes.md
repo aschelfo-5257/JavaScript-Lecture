@@ -1,4 +1,4 @@
-# Lesson 1.3 - Data Types
+# Session 1.3 - Data Types
 
 Data types are the classifications we give to the different kinds of data that we use in programming. They are crucial because they define the kind of data a variable can hold, determining what operations are allowed and how much memory is needed. In JavaScript, there are eight fundamental data types: :gear:
 
