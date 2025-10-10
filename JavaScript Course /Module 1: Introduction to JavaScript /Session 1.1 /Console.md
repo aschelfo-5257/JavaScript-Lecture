@@ -1,4 +1,4 @@
-# Lesson 1.1 - Console
+# Session 1.1 - Console
 
 The console in JavaScript refers to the console object, which provides access to the browser's or Node.js environment's debugging console. It is a global object, meaning it can be accessed from anywhere within your JavaScript code.
 
