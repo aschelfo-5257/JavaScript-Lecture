@@ -1,4 +1,4 @@
-# Lesson 1.6 - Properties
+# Session 1.6 - Properties
 
 When we introduce a new piece of data into JavaScript properties. The purpose is to inspect and display the values of those properties in the browser's developer console. It allows us to check the current state and value of variables, objects, and their properties at specific points in the code's execution. For instance, we call a `length` that stores the number of characters in a string. We can log the values of properties as long as they are producing the expected results.
 
