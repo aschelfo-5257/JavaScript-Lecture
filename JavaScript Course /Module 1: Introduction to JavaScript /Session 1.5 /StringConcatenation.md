@@ -1,4 +1,4 @@
-# Lesson 1.5 - String Concatenation
+# Session 1.5 - String Concatenation
 
 String concatenation serves a fundamental purpose in combining two or more strings into a single or larger string. This enables the process of various tasks by creating an append that learns from the operator's quotes `+`.
 
