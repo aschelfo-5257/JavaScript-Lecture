@@ -24,6 +24,6 @@ When we use `console.log(),` we're calling the `.log()` method on the `console` 
 
 :bulb: Methods are very useful that are associated with an object. They allow you to define actions or behaviors that an object can perform. Understanding the methods used to comprehend several key aspects of JavaScript, like modifying and processing the data stored within the object's properties. You can define your own methods for custom objects, enabling them to perform specific tasks relevent to your application, as long as it is a correctly named property.
 
-### Summary
+### Summary:
 
 Understanding methods in JavaScript means how to make objects perform actions, how to interact with and manipulate object data, and how to utilize the rich set of functionalities provided by the language's built-in objects.
