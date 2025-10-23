@@ -23,7 +23,7 @@ In JavaScript, basic mathematical assignment operators provide a shorthand metho
 
       let z = x ** y;
 
-Suppose we can perform a calculation that will need to use the variable `let`:
+Suppose we perform a calculation using variables declared with `let`:
 
     let x = 12;
     let y = 4;
@@ -34,7 +34,7 @@ Suppose we can perform a calculation that will need to use the variable `let`:
     console.log(z); // 16
     console.log(x); // 12 (x is unchanged)
 
-The `x` operation does not change the value of the original variables involved.
+The variable `x` remains unchanged because the addition operation creates a new value rather than modifying `x`.
 
 ### Mathematical Assignment Operators:
 
@@ -94,6 +94,16 @@ Let's say a compound mathematical assignment operator is a shorthand way to perf
 
 Because these operators offer a more compact and often more readable way to modify variable values compared to explicitly writing out the full `variable = variable op value` expression.
 
+Here is the summary of assignment operators in a table:
+| Operator | Description               | Example   | Equivalent To |
+| -------- | ------------------------- | --------- | ------------- |
+| `+=`     | Addition assignment       | `x += y`  | `x = x + y`   |
+| `-=`     | Subtraction assignment    | `x -= y`  | `x = x - y`   |
+| `*=`     | Multiplication assignment | `x *= y`  | `x = x * y`   |
+| `/=`     | Division assignment       | `x /= y`  | `x = x / y`   |
+| `%=`     | Remainder assignment      | `x %= y`  | `x = x % y`   |
+| `**=`    | Exponentiation assignment | `x **= y` | `x = x ** y`  |
+
 ### Summary:
 
-Mathematical assignment operators are a convenient way to update the value of a variable by performing an arithmetic operation on its current value and then reassigning the result, making your code more compact and often more readable.
+Mathematical assignment operators in JavaScript combine arithmetic operations with assignment, allowing you to modify variable values directly. They make your code cleaner, shorter, and more expressive—perfect for updating counters, totals, and scores.
