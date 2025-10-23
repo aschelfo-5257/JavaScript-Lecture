@@ -76,7 +76,7 @@ Here are the summary differences in a table: :mag:
 
 Feature            |              `let`                |              `const`              |                `var`                   |
 -------------------|-----------------------------------|-----------------------------------|----------------------------------------|
-**Scope**          |              Block                |               Block               |                Global                  |
+**Scope**          |              Block                |               Block               |            Function/Global             |
 **Hoisting**       | Hoisted but not initialized (TDZ) | Hoisted but not initialized (TDZ) | Hoisted and initialized to `undefined` |
 **Reassignment**   |               Yes                 |                No                 |                 Yes                    |
 **Redeclaration**  |               No                  |                No                 |                 Yes                    |
