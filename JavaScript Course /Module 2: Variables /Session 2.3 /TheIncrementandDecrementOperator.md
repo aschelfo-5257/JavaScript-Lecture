@@ -1,6 +1,6 @@
 # Session 2.3 - The Increment and Decrement Operator
 
-The increment (`++`) and decrement (`--`) operators in JavaScript is to increase or decrease the value of a numeric variable by one. These operators provide a concise way to modify a variable's value, particularly useful in scenarios involving iteration, counting, or sequential access, just like the previous mathematical assignment operators. In a shorthand notation, they provide a compact alternative to longer expressions.
+The increment (`++`) and decrement (`--`) operators in JavaScript are used to increase or decrease the value of a numeric variable by one. These operators provide a concise way to modify a variable's value, particularly useful in scenarios involving iteration, counting, or sequential access, just like the previous mathematical assignment operators. In a shorthand notation, they provide a compact alternative to longer expressions.
 
 - `variable++` is equivalent to `variable = variable + 1` or `variable += 1`.
 - `variable--` is equivalent to `variable = variable - 1` or `variable -= 1`.
@@ -37,7 +37,7 @@ While `++` and `--` are standard, some developers prefer the slightly more expli
 - Conversely, `++i` (pre-increment) and `--i` (pre-decrement) are used when the incremented or decremented value of the variable is needed immediately in an expression.
 
       let i = 10;
-      let newResult = ++i; // i becomes 10, then newResult is 10
+      let newResult = ++i; // i becomes 11, then newResult is 11
       console.log(newResult); // Output: 10
       console.log(i); // Output: 10
 
