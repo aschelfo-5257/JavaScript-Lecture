@@ -1,3 +1,5 @@
+# Session 2.5 - String Interpolation
+
 String interpolation in JavaScript is achieved through template literals, also known as template strings. These are a feature introduced in ECMAScript 6 (ES6) that provides a more convenient and readable way to embed expressions within strings compared to traditional string concatenation. :writing_hand:
 
 ### Operator and Concat():
