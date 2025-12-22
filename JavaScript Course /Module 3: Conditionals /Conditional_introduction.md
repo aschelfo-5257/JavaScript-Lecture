@@ -1,1 +1,3 @@
 Conditional statements in JavaScript are used to perform different actions based on different conditions, allowing it to make decisions and execute different blocks of code based on whether a condition is true or false. Making applications dynamic, interactive, and responsive to various inputs or situations, like a traffic light guiding actions. They let your code "think" and react, essential for tasks from form validation to complex game logic. They are a core component for creating interactive web experiences where the content or behavior of a page changes based on user interactions.
+
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/8f4db9c6-37ca-49ca-9a0c-2ef197dda321" />
