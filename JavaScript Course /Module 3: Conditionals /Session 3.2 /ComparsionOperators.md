@@ -110,3 +110,5 @@ Here are the comparison operator tables:
 ### Summary:
 
 In JavaScript, comparison operators are used to test values against each other, returning a `boolean` result. "Loose" performs type coercion, meaning it tries to convert both values to the same type (usually numbers) before comparing them. "Strict" does not convert types. If the types are different, it immediately returns `false`.
+
+For more in-depth technical details, you can refer to https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
