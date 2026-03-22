@@ -104,3 +104,5 @@ The most essential tactic is to understand that an if...else is a statement (it 
 ### Summary:
 
 The key strategies for using ternary operators in JavaScript involve balancing code conciseness with readability. While they can shorten logic effectively, misuse may lead to unreadable code that is hard to debug and understand. The ternary operator serves as a concise method for performing conditional expressions in JavaScript.
+
+For more information and interactive examples, refer to https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
