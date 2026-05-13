@@ -1,6 +1,6 @@
 # Session 3.6 - The Switch Keyword
 
-The `switch` statement is a control flow structure that is used to perform different actions based on different conditions. It is a control statement that evaluates an expression and executes code blocks associated with matching case labels. We often need to find ourselves to handle multiple conditions compared to a long `if...else` statement.
+The `switch` statement is a control flow structure that is used to perform different actions based on different conditions. It is a control statement that evaluates an expression and executes code blocks associated with matching case labels. Use a switch statement to manage multiple conditional choices cleanly without relying on nested `if...else` blocks.
 
 Here is the general syntax of a `switch` statement in JavaScript:
 
@@ -81,13 +81,13 @@ Thus, `true === true`, this case block runs and logs 'You get a B!'.
 
 **Key Concepts:**
 
-- **Linear Search:** The computer must evaluate every single condition sequentially if your matching code is at the bottom of 20 `else if` statements, the program has to perform 20 individual checks to reach it.
+- **Linear Search:** An engine sequentially processes every condition leading up to your match, increasing lookup time linearly.
 
 - **Instant Lookup:** When a compiler processes a `switch` statement, it builds a Jump Table (a lookup array in memory). Instead of executing sequentially, it maps your variable directly to its correct memory location.
 
 - **Speed Rate:** A switch statement is often faster than a long `if...else` chain because of how compilers and interpreters optimize the code behind the scenes.
 
-Instead of an error, developers use this behavior intentionally to group different inputs that require the same output.
+Rather than a flaw, fall-through is an intentional feature used to map multiple inputs to a single output block.
 
     let response = 'yes';
 
@@ -101,7 +101,7 @@ Instead of an error, developers use this behavior intentionally to group differe
 
 Here, both 'yes' and 'y' cases execute the same code because there’s no `break` between them! This can be a neat shortcut, but forgetting `break` accidentally can cause bugs.
 
-**Note:** By default, remember always uses strict equality (`===`) to compare the expression with the cases.
+**Note:** The switch statement always uses strict equality (`===`) when matching expressions to cases.
 
 ### Summary:
 
