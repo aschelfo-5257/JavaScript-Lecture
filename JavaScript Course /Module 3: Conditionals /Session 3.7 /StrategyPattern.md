@@ -55,7 +55,7 @@ FedEx, UPS, and LocalPost have different strategies for calculating shipping cos
 
 ### Example #3 - Guard Clauses:
 
-This strategy prioritizes checking for invalid states or exceptional conditions at the very top of a function. If a condition is met, the function exits immediately, eliminating the need to wrap the rest of the function in an expansive, nested else block.
+This strategy prioritizes checking for specific states or matching conditions at the very top of a function. If a condition is met, the function exits immediately, eliminating the need to wrap the rest of the function in an expansive, nested else block.
 
     function calculateDiscount(userType, price) {
       if (userType === 'VIP') return price * 0.8;
@@ -71,13 +71,13 @@ This strategy prioritizes checking for invalid states or exceptional conditions 
 
 This makes the function cleaner and easier to understand at a glance. If none of the conditions match, the function falls back to returning the original price.
 
-If you check multiple dependent conditions before executing code logic. This will end up finding or creating nested code through a phenomenon known as "The Arrow Anti-Pattern" or "Pyramid of Doom."
+"Checking multiple dependent conditions before executing your main logic creates deeply nested code. This issue is known as 'The Arrow Anti-Pattern' or the 'Pyramid of Doom', which makes code incredibly difficult to read and maintain."
 
 :bulb: Think of it as a way to create a family of interchangeable behaviors that a program can swap out at runtime. It helps to avoid messy `if...else` or `switch` blocks when you have multiple ways to perform the same task.
 
 **Key Concepts:**
 
-- **Strategy Interface**: A common blueprint (often just a shared method name in JS) that all concrete strategies must follow.
+- **Strategy Interface**: A blueprint—often a shared method name in JavaScript—that all concrete strategies implement.
 
 - **Concrete Strategies**: The interchangeable algorithms or behaviors.
 
